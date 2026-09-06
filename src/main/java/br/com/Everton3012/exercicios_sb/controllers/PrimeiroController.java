@@ -11,4 +11,9 @@ public class PrimeiroController {
     public String olaMundo() {
         return "Olá, mundo!";
     }
+
+    @RequestMapping(method = RequestMethod.POST, path = "/hello-world")
+    public String olaMund() {
+        return "Olá, mundo!";
+    }
 }
